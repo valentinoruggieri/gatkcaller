@@ -1,0 +1,90 @@
+2023-03-28 11:41:00 	[7fc93cd5c740]	Version: 1.2.1
+2023-03-28 11:41:00 	[7fc93cd5c740]	argc: 9 argv: dragen-os -r dragmap --num-threads 16 -1 sample5_T1_1.fastp.fastq.gz -2 sample5_T1_2.fastp.fastq.gz
+decompHashTableCtxInit...
+  0.022 seconds
+decompHashTableHeader...
+  0.001 seconds
+decompHashTableLiterals...
+  0.155 seconds
+decompHashTableExtIndex...
+  0.002 seconds
+decompHashTableAutoHits...
+  1.184 seconds
+decompHashTableSetFlags...
+  0.227 seconds
+finished decompress
+Running dual fastq workflow on 16 threads. System supports 16 threads.
+0	249	0	0	0	0	10000	1	40000	1	1000	0	0	0	6	
+0	250	0	0	0	0	10000	1	40000	1	1000	0	0	0	5	
+0	251	0	0	0	0	10000	1	40000	1	1000	0	0	0	4	
+0	252	0	0	0	0	10000	1	40000	1	1000	0	0	0	3	
+0	253	0	0	0	0	10000	1	40000	1	1000	0	0	0	2	
+0	254	0	0	0	0	10000	1	40000	1	1000	0	0	0	1	
+MAPPING/ALIGNING SUMMARY,,Total input reads,35870,100.00
+MAPPING/ALIGNING SUMMARY,,Number of duplicate marked reads,0,0.00
+MAPPING/ALIGNING SUMMARY,,Number of duplicate marked and mate reads removed,0,0.00
+MAPPING/ALIGNING SUMMARY,,Number of unique reads (excl. duplicate marked reads),35870,100.00
+MAPPING/ALIGNING SUMMARY,,Reads with mate sequenced,35870,100.00
+MAPPING/ALIGNING SUMMARY,,Reads without mate sequenced,0,0.00
+MAPPING/ALIGNING SUMMARY,,QC-failed reads,0,0.00
+MAPPING/ALIGNING SUMMARY,,Mapped reads,35306,98.43
+MAPPING/ALIGNING SUMMARY,,Mapped reads adjusted for filtered mapping,35306,98.43
+MAPPING/ALIGNING SUMMARY,,Mapped reads R1,17669,98.52
+MAPPING/ALIGNING SUMMARY,,Mapped reads R2,17637,98.34
+MAPPING/ALIGNING SUMMARY,,Number of unique & mapped reads (excl. duplicate marked reads),35306,98.43
+MAPPING/ALIGNING SUMMARY,,Unmapped reads,564,1.57
+MAPPING/ALIGNING SUMMARY,,Unmapped reads adjusted for filtered mapping,564,1.57
+MAPPING/ALIGNING SUMMARY,,Adjustment of reads matching non-reference decoys,0,0.00
+MAPPING/ALIGNING SUMMARY,,Singleton reads (itself mapped; mate unmapped),120,0.33
+MAPPING/ALIGNING SUMMARY,,Paired reads (itself & mate mapped),35186,98.09
+MAPPING/ALIGNING SUMMARY,,Properly paired reads,35012,97.61
+MAPPING/ALIGNING SUMMARY,,Not properly paired reads (discordant),174,0.49
+MAPPING/ALIGNING SUMMARY,,Paired reads mapped to different chromosomes,35186,100.00
+MAPPING/ALIGNING SUMMARY,,Paired reads mapped to different chromosomes (MAPQ>=10),26188,74.43
+MAPPING/ALIGNING SUMMARY,,Reads with MAPQ [40:inf),22875,63.77
+MAPPING/ALIGNING SUMMARY,,Reads with MAPQ [30:40),728,2.03
+MAPPING/ALIGNING SUMMARY,,Reads with MAPQ [20:30),1150,3.21
+MAPPING/ALIGNING SUMMARY,,Reads with MAPQ [10:20),1478,4.12
+MAPPING/ALIGNING SUMMARY,,Reads with MAPQ [ 0:10),9075,25.30
+MAPPING/ALIGNING SUMMARY,,Reads with MAPQ NA (Unmapped reads),564,1.57
+MAPPING/ALIGNING SUMMARY,,Reads with indel R1,1627,9.21
+MAPPING/ALIGNING SUMMARY,,Reads with indel R2,1607,9.11
+MAPPING/ALIGNING SUMMARY,,Total bases,5092042
+MAPPING/ALIGNING SUMMARY,,Total bases R1,2545246
+MAPPING/ALIGNING SUMMARY,,Total bases R2,2546796
+MAPPING/ALIGNING SUMMARY,,Mapped bases R1,2507452
+MAPPING/ALIGNING SUMMARY,,Mapped bases R2,2504174
+MAPPING/ALIGNING SUMMARY,,Soft-clipped bases R1,37094,1.48
+MAPPING/ALIGNING SUMMARY,,Soft-clipped bases R2,81669,3.26
+MAPPING/ALIGNING SUMMARY,,Mismatched bases R1,32233,1.29
+MAPPING/ALIGNING SUMMARY,,Mismatched bases R2,51525,2.06
+MAPPING/ALIGNING SUMMARY,,Mismatched bases R1 (excl. indels),26740,1.07
+MAPPING/ALIGNING SUMMARY,,Mismatched bases R2 (excl. indels),46032,1.84
+MAPPING/ALIGNING SUMMARY,,Q30 bases,4314852,84.74
+MAPPING/ALIGNING SUMMARY,,Q30 bases R1,2346896,92.21
+MAPPING/ALIGNING SUMMARY,,Q30 bases R2,1967956,77.27
+MAPPING/ALIGNING SUMMARY,,Total alignments,35440
+MAPPING/ALIGNING SUMMARY,,Secondary alignments,0
+MAPPING/ALIGNING SUMMARY,,Supplementary (chimeric) alignments,134
+MAPPING/ALIGNING SUMMARY,,Estimated read length,141.96
+MAPPING/ALIGNING SUMMARY,,DRAGEN mapping rate [thousand reads/second],5.40
+0	0	138	188	271	210.91	94.76	1	670	1	448	12011	12334	0	0	
+Initial paired-end statistics detected for read group all, based on 12011 high quality pairs for FR orientation
+        Quartiles (25 50 75) = 138 188 271
+        Mean = 210.91
+        Standard deviation = 94.76
+        Rescue radius = 236.90
+        Effective rescue sigmas = 2.50
+        Boundaries for mean and standard deviation: low = 1, high = 537
+        Boundaries for proper pairs: low = 1, high = 670
+        NOTE: DRAGEN's insert estimates include corrections for clipping (so they are not identical to TLEN)
+Paired-end statistics were based on initial reads for read group all, based on 12011 high quality pairs for FR orientation
+        Quartiles (25 50 75) = 138 188 271
+        Mean = 210.91
+        Standard deviation = 94.76
+        Rescue radius = 236.90
+        Effective rescue sigmas = 2.50
+        Boundaries for mean and standard deviation: low = 1, high = 537
+        Boundaries for proper pairs: low = 1, high = 670
+        NOTE: DRAGEN's insert estimates include corrections for clipping (so they are not identical to TLEN)
+

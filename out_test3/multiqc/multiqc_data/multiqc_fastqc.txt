@@ -1,0 +1,11 @@
+Sample	Filename	File type	Encoding	Total Sequences	Sequences flagged as poor quality	Sequence length	%GC	total_deduplicated_percentage	avg_sequence_length	basic_statistics	per_base_sequence_quality	per_tile_sequence_quality	per_sequence_quality_scores	per_base_sequence_content	per_sequence_gc_content	per_base_n_content	sequence_length_distribution	sequence_duplication_levels	overrepresented_sequences	adapter_content
+sample1_T1_1	sample1_T1_1.gz	Conventional base calls	Sanger / Illumina 1.9	9811.0	0.0	100-151	46.0	95.37254102537968	145.06268474161655	pass	pass	fail	pass	fail	pass	pass	warn	pass	warn	pass
+sample1_T1_2	sample1_T1_2.gz	Conventional base calls	Sanger / Illumina 1.9	9811.0	0.0	100-151	46.0	96.6058505758842	145.07430435225768	pass	pass	fail	pass	warn	warn	pass	warn	pass	pass	pass
+sample2_T1_1	sample2_T1_1.gz	Conventional base calls	Sanger / Illumina 1.9	24515.0	0.0	100-151	46.0	87.8441770344687	144.8894962267999	pass	pass	pass	pass	fail	pass	pass	warn	pass	warn	pass
+sample2_T1_2	sample2_T1_2.gz	Conventional base calls	Sanger / Illumina 1.9	24515.0	0.0	100-151	46.0	89.37793187844177	144.8919437079339	pass	pass	pass	pass	warn	pass	pass	warn	pass	pass	pass
+sample3_T1_1	sample3_T1_1.gz	Conventional base calls	Sanger / Illumina 1.9	24496.0	0.0	100-151	46.0	89.13700195950359	145.07152188112346	pass	pass	pass	pass	fail	pass	pass	warn	pass	warn	pass
+sample3_T1_2	sample3_T1_2.gz	Conventional base calls	Sanger / Illumina 1.9	24496.0	0.0	100-151	46.0	90.62295885042457	145.07805355976487	pass	pass	pass	pass	warn	pass	pass	warn	pass	pass	pass
+sample4_T1_1	sample4_T1_1.gz	Conventional base calls	Sanger / Illumina 1.9	17628.0	0.0	100-151	38.0	97.01611073292489	141.48808713410483	pass	pass	pass	pass	fail	warn	pass	warn	pass	warn	pass
+sample4_T1_2	sample4_T1_2.gz	Conventional base calls	Sanger / Illumina 1.9	17628.0	0.0	100-151	38.0	97.40753346948037	141.50272294077604	pass	warn	pass	pass	fail	pass	pass	warn	pass	pass	pass
+sample5_T1_1	sample5_T1_1.gz	Conventional base calls	Sanger / Illumina 1.9	17935.0	0.0	100-151	38.0	96.9110677446334	141.08502927237245	pass	pass	pass	pass	fail	warn	pass	warn	pass	pass	pass
+sample5_T1_2	sample5_T1_2.gz	Conventional base calls	Sanger / Illumina 1.9	17935.0	0.0	100-151	39.0	97.1229439643156	141.1689991636465	pass	fail	pass	pass	fail	warn	pass	warn	pass	pass	pass

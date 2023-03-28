@@ -1,0 +1,49 @@
+Detecting adapter sequence for read1...
+>Illumina TruSeq Adapter Read 1
+AGATCGGAAGAGCACACGTCTGAACTCCAGTCA
+
+Detecting adapter sequence for read2...
+>Illumina TruSeq Adapter Read 2
+AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGT
+
+Read1 before filtering:
+total reads: 10000
+total bases: 1510000
+Q20 bases: 1479505(97.9805%)
+Q30 bases: 1421793(94.1585%)
+
+Read2 before filtering:
+total reads: 10000
+total bases: 1510000
+Q20 bases: 1469008(97.2853%)
+Q30 bases: 1397234(92.5321%)
+
+Read1 after filtering:
+total reads: 9811
+total bases: 1431722
+Q20 bases: 1404695(98.1123%)
+Q30 bases: 1351012(94.3627%)
+
+Read2 after filtering:
+total reads: 9811
+total bases: 1431845
+Q20 bases: 1399115(97.7141%)
+Q30 bases: 1333423(93.1262%)
+
+Filtering result:
+reads passed filter: 19622
+reads failed due to low quality: 90
+reads failed due to too many N: 0
+reads failed due to too short: 288
+reads with adapter trimmed: 5368
+bases trimmed due to adapters: 117311
+
+Duplication rate: 0.04%
+
+Insert size peak (evaluated by paired-end reads): 155
+
+JSON report: sample1_T1.fastp.json
+HTML report: sample1_T1.fastp.html
+
+fastp --in1 sample1_T1_1.fastq.gz --in2 sample1_T1_2.fastq.gz --out1 sample1_T1_1.fastp.fastq.gz --out2 sample1_T1_2.fastp.fastq.gz --json sample1_T1.fastp.json --html sample1_T1.fastp.html --thread 8 --detect_adapter_for_pe --average_qual 20 -l 100 
+fastp v0.23.2, time used: 0 seconds

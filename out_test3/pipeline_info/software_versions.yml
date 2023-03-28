@@ -1,0 +1,10 @@
+CUSTOM_DUMPSOFTWAREVERSIONS:
+  python: 3.11.0
+  yaml: '6.0'
+FASTQC:
+  fastqc: 0.11.9
+SAMPLESHEET_CHECK:
+  python: 3.8.3
+Workflow:
+  Nextflow: 22.10.7
+  nf-core/gatkcaller: 1.0dev

@@ -1,0 +1,3 @@
+sample,fastq_1,fastq_2
+"sample_1","/home/valentino/Program/gatkcaller-main/file_test/SRX4131408_SRR7224914_1.fastq.gz","/home/valentino/Program/gatkcaller-main/file_test/SRX4131408_SRR7224914_2.fastq.gz"
+"sample_2","/home/valentino/Program/gatkcaller-main/file_test/ERX9994933_ERR10474590_1.fastq.gz","/home/valentino/Program/gatkcaller-main/file_test/ERX9994933_ERR10474590_2.fastq.gz"

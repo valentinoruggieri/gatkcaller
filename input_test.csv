@@ -1,0 +1,6 @@
+sample,fastq_1,fastq_2
+sample1,/home/valentino/Program/gatkcaller-main/file_test/ERX9994933_subsample1_1.fastq.gz,/home/valentino/Program/gatkcaller-main/file_test/ERX9994933_subsample1_2.fastq.gz
+sample2,/home/valentino/Program/gatkcaller-main/file_test/ERX9994933_subsample2_1.fastq.gz,/home/valentino/Program/gatkcaller-main/file_test/ERX9994933_subsample2_2.fastq.gz
+sample3,/home/valentino/Program/gatkcaller-main/file_test/ERX9994933_subsample3_1.fastq.gz,/home/valentino/Program/gatkcaller-main/file_test/ERX9994933_subsample3_2.fastq.gz
+sample4,/home/valentino/Program/gatkcaller-main/file_test/SRX4131408_subsample4_1.fastq.gz,/home/valentino/Program/gatkcaller-main/file_test/SRX4131408_subsample4_2.fastq.gz
+sample5,/home/valentino/Program/gatkcaller-main/file_test/SRX4131408_subsample5_1.fastq.gz,/home/valentino/Program/gatkcaller-main/file_test/SRX4131408_subsample5_2.fastq.gz
