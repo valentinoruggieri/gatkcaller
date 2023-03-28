@@ -13,7 +13,7 @@
 
 <!-- TODO nf-core: Write a 1-2 sentence summary of what data the pipeline is for and what it does -->
 
-**nf-core/gatkcaller** is a bioinformatics best-practice analysis pipeline for A variant calling pipeline relying on GATK.
+**gatkcaller** is a bioinformatics best-practice analysis pipeline for variant calling. This is an optimized approach relying on DragMap and on a parallelized Haplotypecallaer(GATK).
 
 The pipeline is built using [Nextflow](https://www.nextflow.io), a workflow tool to run tasks across multiple compute infrastructures in a very portable manner. It uses Docker/Singularity containers making installation trivial and results highly reproducible. The [Nextflow DSL2](https://www.nextflow.io/docs/latest/dsl2.html) implementation of this pipeline uses one container per process which makes it much easier to maintain and update software dependencies. Where possible, these processes have been submitted to and installed from [nf-core/modules](https://github.com/nf-core/modules) in order to make them available to all nf-core pipelines, and to everyone within the Nextflow community!
 
@@ -27,6 +27,16 @@ On release, automated continuous integration tests run the pipeline on a full-si
 
 1. Read QC ([`FastQC`](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/))
 2. Present QC for raw reads ([`MultiQC`](http://multiqc.info/))
+3. FastP
+4. DragMap Align
+5. MarkDuplicates
+6. CalibrateDragModel
+7. Parallel Haplotypecaller per sample in gvcf format (using intervals provided by the users)
+8. GenomicsDBImport
+9. GvcfGenotype (GATK)
+10. Filtering (Hard filtering for DragMap)
+11. MultiQc
+12. Report (Rmarkdown) -> TO DO
 
 ## Quick Start
 
@@ -37,7 +47,7 @@ On release, automated continuous integration tests run the pipeline on a full-si
 3. Download the pipeline and test it on a minimal dataset with a single command:
 
    ```bash
-   nextflow run nf-core/gatkcaller -profile test,YOURPROFILE --outdir <OUTDIR>
+   nextflow run main.nf -profile test,YOURPROFILE --outdir <OUTDIR> --fasta --list 
    ```
 
    Note that some form of configuration will be needed so that Nextflow knows how to fetch the required software. This is usually done in the form of a config profile (`YOURPROFILE` in the example command above). You can chain multiple config profiles in a comma-separated string.
@@ -52,7 +62,7 @@ On release, automated continuous integration tests run the pipeline on a full-si
    <!-- TODO nf-core: Update the example "typical command" below used to run the pipeline -->
 
    ```bash
-   nextflow run nf-core/gatkcaller --input samplesheet.csv --outdir <OUTDIR> --genome GRCh37 -profile <docker/singularity/podman/shifter/charliecloud/conda/institute>
+   nextflow run main.nf --input samplesheet.csv --outdir <OUTDIR> --fasta GRCh37 -profile <docker/singularity/podman/shifter/charliecloud/conda/institute>
    ```
 
 ## Documentation
